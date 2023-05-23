@@ -1,0 +1,31 @@
+/** @format */
+.el-dialog {
+  user-select: none;
+}
+.el-dialog__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--pc-bg-color-red);
+  margin-right: 0;
+  padding: 0;
+  padding-right: 10px;
+  box-sizing: border-box;
+  height: 50px;
+}
+.el-dialog__header .title {
+  color: #e6e6e6;
+  font-size: 18px;
+}
+.el-dialog__header .el-dialog__title {
+  color: #e6e6e6;
+}
+.el-dialog__header .el-dialog__headerbtn {
+  top: 0;
+}
+.el-dialog__header .el-dialog__headerbtn .el-dialog__close {
+  color: #e6e6e6;
+}
+.el-dialog__body {
+  padding: 0;
+}
